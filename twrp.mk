@@ -21,7 +21,6 @@
 # Do not go full treble for recovery
 PRODUCT_FULL_TREBLE_OVERRIDE := false
 
-RECOVERY_VARIANT := twrp
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/recovery/twrp.fstab
 
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := false

@@ -217,6 +217,4 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += device/sony/yoshino/sepolicy/private
 ### RECOVERY
 TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/ramdisk/fstab.recovery
 
-ifeq ($(WITH_TWRP),true)
 -include $(PLATFORM_PATH)/twrp.mk
-endif
