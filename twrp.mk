@@ -71,8 +71,8 @@ TARGET_RECOVERY_DEVICE_MODULES      += android.hardware.weaver@1.0
 TW_RECOVERY_ADDITIONAL_RELINK_FILES += $(PRODUCT_OUT)/system/lib64/android.hardware.weaver@1.0.so
 
 # Add strace
-TARGET_RECOVERY_DEVICE_MODULES      += strace
-TW_RECOVERY_ADDITIONAL_RELINK_FILES += $(PRODUCT_OUT)/system/xbin/strace
+#TARGET_RECOVERY_DEVICE_MODULES      += strace
+#TW_RECOVERY_ADDITIONAL_RELINK_FILES += $(PRODUCT_OUT)/system/xbin/strace
 
 # /system/manifest.xml
 TARGET_RECOVERY_DEVICE_MODULES      += system_manifest.xml
