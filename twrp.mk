@@ -22,7 +22,7 @@
 PRODUCT_FULL_TREBLE_OVERRIDE := false
 
 RECOVERY_VARIANT := twrp
-TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/recovery/twrp.fstab
+TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/ramdisk/fstab.recovery
 
 BOARD_NEEDS_VENDORIMAGE_SYMLINK := false
 TARGET_COPY_OUT_VENDOR := vendor
@@ -30,7 +30,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 ### INIT
 # Use rootdir/init.recovery.usb.rc
 TW_EXCLUDE_DEFAULT_USB_INIT := true
-TARGET_RECOVERY_DEVICE_MODULES := init.recovery.usb.rc
+TARGET_RECOVERY_DEVICE_MODULES := init.recovery.usb.rc twrp.flags
 
 ### KERNEL
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
