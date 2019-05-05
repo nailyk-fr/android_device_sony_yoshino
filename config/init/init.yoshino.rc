@@ -42,10 +42,10 @@ on early-init
     write /sys/module/msm_rtb/parameters/enable 0
 
     # Kernel modules for SIM, vibrator, bus and NFC
-    insmod /vendor/lib/modules/bu520x1nvx.ko
-    insmod /vendor/lib/modules/sim_detect.ko
-    insmod /vendor/lib/modules/ldo_vibrator.ko
-    insmod /vendor/lib/modules/pn553.ko
+    insmod /lib/modules/bu520x1nvx.ko
+    insmod /lib/modules/sim_detect.ko
+    insmod /lib/modules/ldo_vibrator.ko
+    insmod /lib/modules/pn553.ko
 
     # Kernel module for fingerprint sensor
     insmod /vendor/lib/modules/fpc1145_platform.ko
