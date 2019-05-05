@@ -19,4 +19,5 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter lilac poplar maple, $(TARGET_DEVICE)),)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 include vendor/qcom/opensource/audio/Android.mk
+include vendor/qcom/opensource/dataservices/rmnetctl/Android.mk
 endif
