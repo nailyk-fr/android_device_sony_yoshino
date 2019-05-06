@@ -16,7 +16,7 @@ binder_call(taimport, hal_miscta_default)
 binder_call(taimport, hal_allocator)
 
 set_prop(taimport, secureadb_prop)
-set_prop(taimport, semc_version_prop)
+set_prop(taimport, vendor_semc_version_cust_active_prop)
 set_prop(taimport, sony_prop)
 set_prop(taimport, taimport_prop)
 
